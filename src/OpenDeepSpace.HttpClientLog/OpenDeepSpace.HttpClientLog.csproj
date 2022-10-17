@@ -2,6 +2,14 @@
 
   <PropertyGroup>
     <TargetFrameworks>netcoreapp3.1;net6.0</TargetFrameworks>
+	  <PackageId>OpenDeepSpace.HttpClientLog</PackageId>
+	  <Version>1.0.1</Version>
+	  <Authors>OpenDeepSpace</Authors>
+	  <Company>OpenDeepSpaceTech</Company>
+	  <Product>OpenDeepSpaceNetCoreAutofacastle</Product>
+	  <Description>记录通过HttpClient请求Api的日志信息</Description>
+	  <Copyright>MIT</Copyright>
+	  <PackageProjectUrl>https://github.com/SakuraMayan/OpenDeepSpace.HttpClientLog</PackageProjectUrl>
   </PropertyGroup>
 
   <ItemGroup>
