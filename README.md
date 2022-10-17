@@ -1,1 +1,7 @@
 OpenDeepSpace.HttpClientLog
+
+记录HttpClient请求第三方接口的相关请求响应信息
+
+使用方式见Wiki 
+
+可以在NuGet上搜索最新版 OpenDeepSpace.HttpClientLog
