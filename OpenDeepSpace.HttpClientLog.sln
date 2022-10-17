@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32407.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "demo", "demo", "{21CCEC9C-C3BA-4983-8A21-3F4BBD96FF6F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{00690742-04D9-4A03-9186-8074855E27F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenDeepSpace.HttpClientLog", "src\OpenDeepSpace.HttpClientLog\OpenDeepSpace.HttpClientLog.csproj", "{810C71DB-4F39-4C57-B4FC-F7E9D7C62E6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenDeepSpace.HttpClientLog.Demo", "demo\OpenDeepSpace.HttpClientLog.Demo\OpenDeepSpace.HttpClientLog.Demo.csproj", "{7134142E-6006-41F5-AB6A-3FE37D7658DB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{810C71DB-4F39-4C57-B4FC-F7E9D7C62E6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{810C71DB-4F39-4C57-B4FC-F7E9D7C62E6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{810C71DB-4F39-4C57-B4FC-F7E9D7C62E6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{810C71DB-4F39-4C57-B4FC-F7E9D7C62E6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7134142E-6006-41F5-AB6A-3FE37D7658DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7134142E-6006-41F5-AB6A-3FE37D7658DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7134142E-6006-41F5-AB6A-3FE37D7658DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7134142E-6006-41F5-AB6A-3FE37D7658DB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{810C71DB-4F39-4C57-B4FC-F7E9D7C62E6A} = {00690742-04D9-4A03-9186-8074855E27F7}
+		{7134142E-6006-41F5-AB6A-3FE37D7658DB} = {21CCEC9C-C3BA-4983-8A21-3F4BBD96FF6F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {867FBAAF-C2DC-417E-B7DB-E56987D6A166}
+	EndGlobalSection
+EndGlobal
